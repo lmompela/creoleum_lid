@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "creoleum-lid"
+version = "0.1.0"
+description = "Production-oriented French vs Martinican/Guadeloupean Creole LID"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Creoleum contributors" }]
+dependencies = [
+  "numpy",
+  "scikit-learn",
+  "joblib",
+  "pyyaml",
+  "pandas",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tools*"]

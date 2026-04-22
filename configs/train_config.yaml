@@ -1,0 +1,13 @@
+paths:
+  train_creole: data/creole_dataset.txt
+  train_french: data/french_dataset.txt
+  eval_token_csv: data/lid_eval_tokens.csv
+  model_out: models/lid_model.joblib
+
+training:
+  random_seed: 42
+  test_size: 0.2
+
+inference:
+  token_weight: 0.7
+  neighbor_weight: 0.15

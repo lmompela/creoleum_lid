@@ -1,0 +1,17 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+
+# Virtual envs
+.venv/
+venv/
+
+# Model artifacts
+models/*.joblib
+models/*.pkl
+artifacts/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

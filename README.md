@@ -79,7 +79,3 @@ export LID_MODEL_PATH=/absolute/path/to/lid_model.joblib
   ]
 }
 ```
-
-## Notes
-
-- Train in the same environment where you deploy to avoid scikit-learn pickle version mismatch warnings.
